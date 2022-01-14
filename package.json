@@ -22,5 +22,8 @@
     "prettier": "^2.3.2",
     "sass": "^1.48.0",
     "sass-loader": "10"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }
