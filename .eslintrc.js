@@ -100,7 +100,8 @@ module.exports = {
       }
     ],
     "newline-after-var": ["error", "always"],
-    "newline-before-return": "error"
+    "newline-before-return": "error",
+    "vue/no-multiple-template-root": 0
   },
   overrides: [
     {
