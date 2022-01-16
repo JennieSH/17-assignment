@@ -1,0 +1,54 @@
+@import "./variables";
+@import "./mixins";
+@import "./animation";
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+header,
+main,
+div,
+input,
+ul,
+li,
+p,
+button {
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+}
+
+#__nuxt {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--bg);
+}

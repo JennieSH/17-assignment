@@ -1,0 +1,51 @@
+// colors
+$gray: #a8a8a7;
+$red: #f56767;
+$white: #ffffff;
+$yellow: #fffef9;
+$light-primary: #8dc8ff;
+$light-bg: #f7f5f5;
+$light-border: #c2bab4;
+$light-active: #a8d2fa;
+$dark-primary: #979187;
+$dark-bg: #b9b2a2;
+$dark-border: #9b9389;
+$dark-active: #dbc080;
+
+// font-size
+$text-sm: 0.875rem;
+$text-basic: 1.125rem;
+$text-md: 1.75rem;
+$text-lg: 2.25rem; // 36px
+
+// font-weight
+$semi-bold: 400;
+$bold: 700;
+
+// border Radius
+$rounded: 4px;
+$full: 9999px;
+
+// breakpoints
+$md: 768px;
+$lg: 1024px;
+$xl: 1280px;
+
+// dark mode
+:root {
+  --primary: #{$light-primary};
+  --secondary: #{$white};
+  --bg: #{$light-bg};
+  --border: #{$light-border};
+  --active: #{$light-active};
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary: #{$dark-primary};
+    --secondary: #{$yellow};
+    --bg: #{$dark-bg};
+    --border: #{$dark-border};
+    --active: #{$dark-active};
+  }
+}
