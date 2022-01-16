@@ -72,8 +72,6 @@ export default defineComponent({
       isEditing.value = false;
     };
 
-    onUpdated(() => console.log(props.task.content));
-
     return {
       inputText,
       isEditing,
