@@ -1,0 +1,21 @@
+{
+  // These are all my auto-save configs
+  "editor.formatOnSave": true,
+  // show eslint icon at bottom toolbar
+  "eslint.alwaysShowStatus": true,
+  // tell the ESLint plugin to run on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+
+  "cSpell.words": ["nuxt", "nuxtjs", "noreferrer", "noopener"],
+  "cSpell.ignorePaths": [
+    "node_modules", // this will ignore anything the node_modules directory
+    ".vscode/**",
+    ".git", // Ignore the .git directory
+    "package.json",
+    "tsconfig.json",
+    "nuxt.config.js"
+  ]
+}
