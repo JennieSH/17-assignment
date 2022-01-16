@@ -9,35 +9,16 @@
     "source.fixAll.stylelint": true
   },
 
-  // // stylelint settings
-  // "css.validate": false,
-  // "less.validate": false,
-  // "scss.validate": false,
-  // "stylelint.config": {
-  //   "rules": {
-  //     "at-rule-no-unknown": [true, {
-  //       "ignoreAtRules": [
-  //         "extend",
-  //         "tailwind",
-  //         "screen",
-  //         "apply",
-  //         "layer",
-  //         "variants",
-  //         "responsive"
-  //       ]
-  //     }],
-  //   }
-  // },
+  "vetur.validation.template": false,
+  "vetur.validation.script": false,
+  "vetur.validation.style": false,
   
 
   "cSpell.words": [
-    "hljs",
     "nuxt",
     "nuxtjs",
-    "tailwindcss",
     "noreferrer",
     "noopener",
-    "linkify"
 
   ],
   "cSpell.ignorePaths": [
