@@ -7,10 +7,18 @@ export default defineNuxtConfig({
   typescript: {
     strict: true
   },
+  meta: {
+    title: "Todo List",
+    meta: [
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { name: "robots", content: "noindex" }
+    ]
+  },
   buildModules: [
     // https://go.nuxtjs.dev/typescript
     "@nuxt/typescript-build",
-    "@nuxtjs/style-resources"
+    "@nuxtjs/style-resources",
+    "@pinia/nuxt"
   ],
   alias: { "@": __dirname },
   css: ["normalize.css"],
