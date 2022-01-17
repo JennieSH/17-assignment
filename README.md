@@ -1,6 +1,7 @@
 # 17 Assignment - Todo List
 
 ![todo-list](https://i.imgur.com/0L6xqEE.png)
+![todo gif](https://i.imgur.com/txSgCBc.gif)
 
 ## Technologies
 
@@ -9,8 +10,7 @@
 * [Eslint](https://eslint.org/)
 * [Prettier](https://prettier.io/)
 * [Sass/SCSS](https://sass-lang.com/)
-* [vite-plugin-svg-icons
-](https://www.npmjs.com/package/vite-plugin-svg-icons)
+* [vite-plugin-svg-icons](https://www.npmjs.com/package/vite-plugin-svg-icons)
 
 ## Feature
 
